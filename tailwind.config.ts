@@ -22,7 +22,8 @@ export default {
         "brand-beige": "#BBAA89",
         "brand-beige-hot": "#B29B7E",
         "brand-hot-red": "#FE191F",
-        "brand-base-color": "#cbc8b8"
+        "brand-base-color": "#cbc8b8",
+        "brand-gray": "#fffdf9",
       },
     },
     screens,
