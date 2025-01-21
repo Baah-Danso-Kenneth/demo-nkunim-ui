@@ -2,14 +2,14 @@ import Bounded from "../../shared/Bounded"
 
 function HugeText() {
     return (
-     <Bounded className="bg-texture">
+     <Bounded className="bg-wineTexture">
       <div className=' text-[0.8rem] flex flex-col w-full border-t border-b border-l border-r border-black  md:text-[3rem] lg:text-[4.5rem] '>
-         <div className='grid grid-cols-3 border-b border-black '>
+         <div className='grid grid-cols-3 border-b border-black text-zinc-800 '>
            <div className='uppercase font-bold pl-10 font-dmMono'>
              <h1>faces</h1>
             </div> 
   
-            <div className='border-l border-black pl-5 '>
+            <div className='border-l border-black pl-5'>
              <h1 className='font-allura uppercase font-playWright'>that</h1>
             </div> 
   
@@ -18,7 +18,7 @@ function HugeText() {
             </div> 
          </div>
   
-         <div className='flex flex-row '>
+         <div className='flex flex-row text-zinc-800'>
            <div className='flex-shrink-0 w-50 border-r border-black '>
             <h1 className=' text-center uppercase font-playWright px-10 '>a</h1>
            </div>
