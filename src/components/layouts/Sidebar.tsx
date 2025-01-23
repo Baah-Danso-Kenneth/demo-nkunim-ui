@@ -4,7 +4,7 @@ import React from 'react'
 
 function Sidebar() {
   return (
-    <div className='border border-t-0 border-l-0 text-zinc-800 '>
+    <div className='border border-t-0 border-l-0  border-black h-[100vh] text-zinc-800 '>
         <div className='flex justify-center text-3xl '>
           <Link href="/" className='py-5'>Logo</Link>
       </div>
