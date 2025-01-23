@@ -16,10 +16,10 @@
 
  
 export const navLinks=[
-    {name:'terms',href:"/"},
+    {name:'convert',href:"/usdConvertor"},
     {name:'dashboard', href:"/dashboard"},
     {name:'profile', href:"/profile"},
-    {name:'payment', href:"/payment"}
+    {name:'payment', href:"/payment"},
 ]
 
 export const footerLinks=[
