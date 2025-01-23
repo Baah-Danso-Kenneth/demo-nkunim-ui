@@ -1,5 +1,7 @@
 import React from 'react'
 import DashboardMiniCard from '../../content/DashboardMiniCard'
+import { LinearChart } from '@/components/content/LinearChart'
+import { PieChatter } from '@/components/content/PieChart'
 
 function DashboardBaseConent() {
   return (
@@ -43,13 +45,13 @@ function DashboardBaseConent() {
             </div>
 
             <div className='border border-black text-zinc-800 ~mt-3/4'>
-                full
+                <LinearChart/>
             </div>
 
         </div>
 
         <div className='flex-[30%] border border-black'>
-
+            <PieChatter/>
            </div>
 
     </div>
