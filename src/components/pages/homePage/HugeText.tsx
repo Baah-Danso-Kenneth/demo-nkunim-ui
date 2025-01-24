@@ -6,7 +6,7 @@ function HugeText() {
       <div className=' text-[0.8rem] flex flex-col w-full border-t border-b border-l border-r border-black  md:text-[3rem] lg:text-[4.5rem] '>
          <div className='grid grid-cols-3 border-b border-black text-zinc-800 '>
            <div className='uppercase font-bold pl-10 font-dmMono'>
-             <h1>faces</h1>
+             <h1>payments</h1>
             </div> 
   
             <div className='border-l border-black pl-5'>
@@ -14,7 +14,7 @@ function HugeText() {
             </div> 
   
             <div className='border-l  border-black '>
-             <h1 className='font-bold font-dmMono uppercase pl-10'>paint</h1>
+             <h1 className='font-bold font-dmMono uppercase pl-10'>tell</h1>
             </div> 
          </div>
   
@@ -28,7 +28,7 @@ function HugeText() {
            </div>
   
            <div className='flex-grow'>
-            <h1 className='  uppercase pl-10 font-playWright' >words!</h1>
+            <h1 className='  uppercase pl-10 font-playWright' >stories!</h1>
            </div>
          </div>
       </div>

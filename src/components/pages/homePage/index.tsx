@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Header from '../../layouts/Header'
 import Footer from '../../layouts/Footer'
 import HeroSection from './HeroSection'
@@ -7,6 +8,7 @@ import Explore from './Explore'
 import ThreeSteps from './ThreeSteps'
 import FrequentAskQuestion from './FrequentAskQuestion'
 import MeetTheTeam from './MeetTheTeam'
+import RecommendationSection from './RecommendationSection'
 
 function HomePage() {
   return (
@@ -16,8 +18,9 @@ function HomePage() {
         <HugeText/>
         <Explore/>
         <ThreeSteps/>
-        <MeetTheTeam/>
         <FrequentAskQuestion/>
+        <RecommendationSection/>
+        <MeetTheTeam/>
         <Footer/>
     </div>
   )
