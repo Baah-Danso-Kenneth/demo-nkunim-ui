@@ -8,7 +8,7 @@ function Explore() {
   return (
     <>
       <section className="article bg-softBlend">
-      <Heading className="font-dmMono flex  justify-center bitems-center text-zinc-800">what we offer</Heading>
+      <Heading className="font-bowlby text-brand-gray flex  justify-center bitems-center ">what we offer</Heading>
         {exploreSection.map(({image,description},index)=>(
           <div className="font-dmMono" key={index}>
               <Image  src={image} alt={image} width={500} height={150} />
