@@ -18,6 +18,17 @@ export default {
   			dmMono: 'var(--font-dmMono)',
   			playWright: 'var(--font-playWright)'
   		},
+		  animation: {
+			'spin-slow': 'spin 7s linear infinite',
+			flash: 'flash 2.5s infinite',
+			'loop-scroll': 'loop-scroll 80s linear infinite',
+		  },
+		  keyframes: {
+			'loop-scroll': {
+			  '0%': { transform: 'translateX(0)' },
+			  '100%': { transform: 'translateX(-100%)' },
+			},
+		  },
   		colors: {
   			'brand-light': '#E4E1DC',
   			'brand-beige': '#BBAA89',
@@ -66,6 +77,7 @@ export default {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
+
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

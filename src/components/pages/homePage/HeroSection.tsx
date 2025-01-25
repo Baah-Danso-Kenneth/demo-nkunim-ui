@@ -1,6 +1,7 @@
 import React from 'react'
 import Bounded from '../../shared/Bounded'
 import { Heading } from '../../shared/Heading'
+import { ButtonLink } from '@/components/shared/ButtonLink'
 
 function HeroSection() {
   return (
@@ -19,9 +20,9 @@ function HeroSection() {
             ducimus aspernatur doloremque 
             beatae soluta perferendis ut laboriosam nesciunt.</p>
 
-            <div>
-            <button className='text-zinc-800'>get started</button>
-            </div>
+            <ButtonLink href='#' className='bg-brand-beige  font-dmMono'>
+              <p className='text-zinc-800 capitalize'>get started</p>
+            </ButtonLink>
             
         </div>
 
