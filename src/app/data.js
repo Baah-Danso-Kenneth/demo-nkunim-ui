@@ -34,16 +34,16 @@ export const footerLinks=[
 ]
 
 export const exploreSection=[
-  {description:'Slow filesystem detected. If /home/gee/bread/Hacks/nkunim-stable-coin-ui/.next is a network drive, consider moving it to a local folder. If you have an antivirus enabled, consider excluding your project directory',
+  {description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque expedita nam in repudiandae, quibusdam debitis iure dicta molestiae dolor quaerat.',
     image:"/images/v1.jpg"},
 
-  {description:'Slow filesystem detected. If /home/gee/bread/Hacks/nkunim-stable-coin-ui/.next is a network drive, consider moving it to a local folder. If you have an antivirus enabled, consider excluding your project directory',
+  {description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque expedita nam in repudiandae, quibusdam debitis iure dicta molestiae dolor quaerat.',
     image:"/images/v2.jpg"},
 
-  {description:'Slow filesystem detected. If /home/gee/bread/Hacks/nkunim-stable-coin-ui/.next is a network drive, consider moving it to a local folder. If you have an antivirus enabled, consider excluding your project directory', 
+  {description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque expedita nam in repudiandae, quibusdam debitis iure dicta molestiae dolor quaerat.', 
     image:"/images/v3.jpg"},
 
-  {description:'Slow filesystem detected. If /home/gee/bread/Hacks/nkunim-stable-coin-ui/.next is a network drive, consider moving it to a local folder. If you have an antivirus enabled, consider excluding your project directory',
+  {description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque expedita nam in repudiandae, quibusdam debitis iure dicta molestiae dolor quaerat.',
      image:"/images/v4.jpg"}
 ]
 
@@ -85,4 +85,48 @@ const chartData = [
   { month: "April", desktop: 73, mobile: 190 },
   { month: "May", desktop: 209, mobile: 130 },
   { month: "June", desktop: 214, mobile: 140 },
+]
+
+
+export const faqs = [
+  {id:1,
+   question:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
+   hovered:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
+   touched:false
+  },
+  {id:2,
+    question:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
+    hovered:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
+    touched:false
+   },
+   {id:3,
+    question:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
+    hovered:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
+    touched:false
+   },
+   {id:4,
+    question:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
+    hovered:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
+    touched:false
+   },
+   {id:5,
+    question:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
+    hovered:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
+    touched:false
+   },
+   {id:6,
+    question:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
+    hovered:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
+    touched:false
+   }
+]
+
+
+export const recommend = [
+  { firstName: "Frinquilla",lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg'},
+  { firstName: "February",lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg' },
+  { firstName: "March",lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg' },
+  { firstName: "April",lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg'},
+  { firstName: "May", lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg'},
+  { firstName: "June",lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg' },
 ]
