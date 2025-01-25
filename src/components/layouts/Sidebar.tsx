@@ -18,7 +18,7 @@ function Sidebar() {
       <div className=' grid place-content-center space-y-5'>
         {sidearContent.map(({name,href,icon},index)=>(
           <Link href={href} className={clsx("flex items-center gap-3 font-dmMono capitalize text-[20px]",{
-            "bg-softBlend px-4 text-white p-1":pathname===href
+            "bg-softBlend px-5  py-2 ":pathname===href
           })} key={index}>
             {icon}
             {name}

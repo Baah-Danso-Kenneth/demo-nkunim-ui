@@ -130,3 +130,21 @@ export const recommend = [
   { firstName: "May", lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg'},
   { firstName: "June",lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg' },
 ]
+
+// export const historyLogs = [
+//   { walletTo: "Frinquilla",lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg'},
+//   { walletTo: "February",lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg' },
+//   { walletTo: "March",lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg' },
+//   { walletTo: "April",lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg'},
+//   { walletTo: "May", lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg'},
+//   { walletTo: "June",lastName:'Sempe', occupation:'UI/UX Designer', info:"loremhighest solid must be worked and info a", img:'/images/v1.jpg' },
+// ]
+
+export const test = [
+  {position:'Softwear engineer', company:'google', time:'2025-present', address:'Ohio Oklahoma',work:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quod eos cumque praesentium in veniam corporis esse minima voluptatem quos. ",href:"#"},
+  {position:'Softwear engineer', company:'google', time:'2025-present', address:'Ohio Oklahoma',work:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quod eos cumque praesentium in veniam corporis esse minima voluptatem quos. ",href:"#"},
+  {position:'Softwear engineer', company:'google', time:'2025-present', address:'Ohio Oklahoma',work:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quod eos cumque praesentium in veniam corporis esse minima voluptatem quos. ",href:"#"},
+  {position:'Softwear engineer', company:'google', time:'2025-present', address:'Ohio Oklahoma',work:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quod eos cumque praesentium in veniam corporis esse minima voluptatem quos. ",href:"#"},
+  {position:'Softwear engineer', company:'google', time:'2025-present', address:'Ohio Oklahoma',work:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quod eos cumque praesentium in veniam corporis esse minima voluptatem quos. ",href:"#"},
+  {position:'Softwear engineer', company:'google', time:'2025-present', address:'Ohio Oklahoma',work:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quod eos cumque praesentium in veniam corporis esse minima voluptatem quos. ",href:"#"},
+]
