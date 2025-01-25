@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/gee/bread/Hacks/nkunim-stable-coin-ui/src/components/content/DefaultLoader.tsx"],"sourcesContent":["import React from 'react'\n\nfunction DefaultLoader() {\n  return (\n    <div>\n        DefaultLoader\n    </div>\n  )\n}\n\nexport default DefaultLoader"],"names":[],"mappings":";;;;;AAEA,SAAS;IACP,qBACE,8OAAC;kBAAI;;;;;;AAIT;uCAEe"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///home/gee/bread/Hacks/nkunim-stable-coin-ui/src/app/loading.tsx"],"sourcesContent":["import React from 'react'\nimport DefaultLoader from './../components/content/DefaultLoader'\n\nfunction Loading() {\n  return <DefaultLoader/>\n}\n\nexport default Loading"],"names":[],"mappings":";;;;AACA;;;AAEA,SAAS;IACP,qBAAO,8OAAC,8IAAA,CAAA,UAAa;;;;;AACvB;uCAEe"}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
