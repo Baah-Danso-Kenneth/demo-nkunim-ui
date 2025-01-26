@@ -3,12 +3,13 @@ import Sidebar from '../../components/layouts/Sidebar'
 
 function layout({children}:{children:ReactNode}) {
   return (
-    <div className='flex bg-wineTexture'>
-        <div className='flex-[20%]'>
-          <Sidebar/>
-        </div>
+    <div className='flex bg-wineTexture gap-20'>
 
-        <div className='flex-[90%]'>
+          <div className='w-[200px]  h-[100vh] fixed top-0 left-0'>
+             <Sidebar/>
+          </div>
+ 
+        <div className='ml-[200px] p-5 flex-[80%]'>
             {children}
         </div>
 

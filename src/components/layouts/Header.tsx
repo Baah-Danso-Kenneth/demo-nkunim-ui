@@ -12,7 +12,7 @@ function Header({className}:{className?:string}) {
   return (
     <header className={clsx('header  absolute inset-0 z-50 ~h-32/48 ~px-4/6 ~py-4/6 md:h-20 font-dmMono ~text-lg/xl',className)}>
 
-      <div className='mx-auto max-w-6xl grid w-full grid-cols-[auto,auto] md:grid-cols-[1fr,auto,1fr]'>
+      <div className='mx-auto max-w-6xl grid w-full grid-cols-[auto,auto] md:grid-cols-[1fr,auto,1fr] items-center'>
 
         <Link href="/">
           Logo
