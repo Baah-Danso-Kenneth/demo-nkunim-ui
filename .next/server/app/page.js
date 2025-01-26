@@ -5,7 +5,7 @@ runtime.loadChunk("server/chunks/ssr/[root of the server]__592060._.js");
 runtime.loadChunk("server/chunks/ssr/src_app_896cde._.js");
 runtime.loadChunk("server/chunks/ssr/_0d18e4._.js");
 runtime.loadChunk("server/chunks/ssr/src_app_701ce2._.css");
-runtime.loadChunk("server/chunks/ssr/src_d1e0d5._.js");
+runtime.loadChunk("server/chunks/ssr/src_8f0745._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_ce97a5._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_client_components_forbidden-error_b4e556.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_client_components_unauthorized-error_d758e6.js");
