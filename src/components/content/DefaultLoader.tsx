@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import React, { useRef, useEffect } from 'react';
 
 const DefaultLoader: React.FC = () => {
@@ -49,7 +50,7 @@ const DefaultLoader: React.FC = () => {
   }, []);
 
   return (
-    <div className="h-dvh bg-brand-beige overflow-hidden">
+    <div className="h-dvh  overflow-hidden">
       <div className="mx-10 py-20">
         <div className="flex justify-between relative">
           <div>
@@ -76,6 +77,11 @@ const DefaultLoader: React.FC = () => {
                 <h1 className="p-2 font-dmMono">loading</h1>
               </div>
             </div>
+
+            <div className='absolute -top-5 left-80 rotate-45 h-5'>
+              <Image src="/images/justpay.png" className='h-[50vh] w-[50vw] object-contain' alt="sticker" width={300} height={200}/>
+            </div>
+
           </div>
 
           <div className="circle ">
