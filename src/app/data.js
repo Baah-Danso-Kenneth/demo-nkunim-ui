@@ -16,7 +16,6 @@
 
  
 export const navLinks=[
-    {name:'convert',href:"/usdConvertor"},
     {name:'dashboard', href:"/dashboard"},
     {name:'profile', href:"/profile"},
     {name:'payment', href:"/payment"},
