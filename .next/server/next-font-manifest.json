@@ -1,5 +1,10 @@
 {
   "app": {
+    "[project]/src/app/payment/page": [
+      "static/media/BowlbyOneSC_Regular-s.p.893bcab1.ttf",
+      "static/media/DMMono_Regular-s.p.3a45d576.ttf",
+      "static/media/PlayfairDisplay_Italic_VariableFont_wght-s.p.40977d4f.ttf"
+    ],
     "[project]/src/app/page": [
       "static/media/BowlbyOneSC_Regular-s.p.893bcab1.ttf",
       "static/media/DMMono_Regular-s.p.3a45d576.ttf",
@@ -10,12 +15,17 @@
       "static/media/DMMono_Regular-s.p.3a45d576.ttf",
       "static/media/PlayfairDisplay_Italic_VariableFont_wght-s.p.40977d4f.ttf"
     ],
-    "[project]/src/app/payment/page": [
+    "[project]/src/app/profile/page": [
       "static/media/BowlbyOneSC_Regular-s.p.893bcab1.ttf",
       "static/media/DMMono_Regular-s.p.3a45d576.ttf",
       "static/media/PlayfairDisplay_Italic_VariableFont_wght-s.p.40977d4f.ttf"
     ],
     "[project]/src/app/history/page": [
+      "static/media/BowlbyOneSC_Regular-s.p.893bcab1.ttf",
+      "static/media/DMMono_Regular-s.p.3a45d576.ttf",
+      "static/media/PlayfairDisplay_Italic_VariableFont_wght-s.p.40977d4f.ttf"
+    ],
+    "[project]/src/app/_not-found/page": [
       "static/media/BowlbyOneSC_Regular-s.p.893bcab1.ttf",
       "static/media/DMMono_Regular-s.p.3a45d576.ttf",
       "static/media/PlayfairDisplay_Italic_VariableFont_wght-s.p.40977d4f.ttf"
