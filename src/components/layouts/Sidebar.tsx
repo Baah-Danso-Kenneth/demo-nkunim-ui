@@ -10,9 +10,9 @@ function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <div className="bg-wineTexture border border-black h-[100vh] ">
+    <div className="bg-wineTexture border border-t-0 border-l-0 border-black h-[100vh] ">
       <div className="flex justify-center text-3xl">
-        <Link href="/" className="py-5">
+        <Link href="/" className="py-5 text-zinc-800">
           Logo
         </Link>
       </div>

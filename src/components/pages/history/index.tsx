@@ -6,6 +6,7 @@ import { Heading } from '@/components/shared/Heading'
 import { test } from '@/app/data'
 import HistoryDetails from './HistoryDetails'
 import { motion, useScroll } from 'framer-motion'
+import HistoryHeader from './HistoryHeader'
 
 
 
@@ -19,11 +20,9 @@ function History() {
 
   return (
     <div className='h-full'>
-        <Heading className='text-zinc-800 text-center mb-20'>
-            history    
-        </Heading>
+        <HistoryHeader/>
 
-        <div ref={ref} className='w-[75%] mx-auto relative'>
+        <div ref={ref} className='w-[75%] mx-auto relative mt-20'>
             <motion.div
             style={{scaleY:scrollYProgress}}
              className='absolute left-9 top-0 w-[4px] h-full bg-black origin-top'/>
