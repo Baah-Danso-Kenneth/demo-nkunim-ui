@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import React, { ReactNode } from 'react'
+import React from 'react'
 import { BsThreeDots } from 'react-icons/bs';
 import { CgProfile } from "react-icons/cg";
 

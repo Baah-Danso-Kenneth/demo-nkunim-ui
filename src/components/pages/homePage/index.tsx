@@ -9,7 +9,7 @@ import ThreeSteps from './ThreeSteps'
 import FrequentAskQuestion from './FrequentAskQuestion'
 import MeetTheTeam from './MeetTheTeam'
 import RecommendationSection from './RecommendationSection'
-import DefaultLoader from '@/components/content/DefaultLoader'
+
 
 function HomePage() {
   return (

@@ -1,6 +1,5 @@
  import { LuArrowDownRight } from "react-icons/lu";
-
- import { HiClipboardList, HiCurrencyDollar } from "react-icons/hi";
+ import { HiClipboardList} from "react-icons/hi";
  import { HiUser } from "react-icons/hi";
  import { HiOutlineCurrencyDollar } from "react-icons/hi";
  import { HiOutlineDesktopComputer } from "react-icons/hi";
@@ -77,43 +76,33 @@ export const transactions=[
 ]
 
 
-const chartData = [
-  { month: "January", desktop: 186, mobile: 80 },
-  { month: "February", desktop: 305, mobile: 200 },
-  { month: "March", desktop: 237, mobile: 120 },
-  { month: "April", desktop: 73, mobile: 190 },
-  { month: "May", desktop: 209, mobile: 130 },
-  { month: "June", desktop: 214, mobile: 140 },
-]
-
-
 export const faqs = [
-  {id:1,
+  {
    question:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
    hovered:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
    touched:false
   },
-  {id:2,
+  {
     question:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
     hovered:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
     touched:false
    },
-   {id:3,
+   {
     question:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
     hovered:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
     touched:false
    },
-   {id:4,
+   {
     question:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
     hovered:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
     touched:false
    },
-   {id:5,
+   {
     question:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
     hovered:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
     touched:false
    },
-   {id:6,
+   {
     question:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
     hovered:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, explicabo?",
     touched:false

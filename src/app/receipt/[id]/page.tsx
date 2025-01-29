@@ -1,23 +1,20 @@
-"use client";
+"use client"
+import React, { useRef, useEffect, useCallback } from "react";
 
-import React, { useRef, useEffect } from "react";
-
-function Page() {
+const Page = () => {
   const cardRef = useRef<HTMLDivElement>(null);
 
   // Function to generate the jagged clip path
   const generateJaggedClipPath = (width: number) => {
     const segments = Math.floor(width / 10); // Adjust for frequency
-    let points: string[] = [];
+    const points: string[] = [];
 
-    // Create alternating jagged edges (zigzag)
     for (let i = 0; i <= segments; i++) {
       const x = (i / segments) * 100; // Calculate % for width
       const y = i % 2 === 0 ? 2 : 5; // Alternate between 2% and 5%
       points.push(`${x}% ${y}%`);
     }
 
-    // Duplicate for the bottom edge, but inverted
     for (let i = segments; i >= 0; i--) {
       const x = (i / segments) * 100;
       const y = i % 2 === 0 ? 98 : 95;
@@ -27,29 +24,24 @@ function Page() {
     return `polygon(${points.join(", ")})`;
   };
 
-  // Function to apply the clip path
-  const applyClipPath = () => {
+  // Memoized function to apply the clip path
+  const applyClipPath = useCallback(() => {
     if (cardRef.current) {
       const width = cardRef.current.offsetWidth;
       const clipPath = generateJaggedClipPath(width);
       cardRef.current.style.clipPath = clipPath;
     }
-  };
+  }, []);
 
-  // UseEffect to handle component mount and resize events
   useEffect(() => {
-    applyClipPath(); // Apply clip path on load
-
-    const handleResize = () => {
-      applyClipPath(); // Reapply clip path on window resize
-    };
+    applyClipPath();
+    const handleResize = () => applyClipPath();
 
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [applyClipPath]); // Now, applyClipPath is stable and doesn't cause unnecessary re-renders
 
   return (
     <div className="text-3xl text-zinc-800 h-screen grid">
@@ -109,6 +101,6 @@ function Page() {
       </div>
     </div>
   );
-}
+};
 
 export default Page;

@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import React, { ReactNode } from 'react'
+import React from 'react'
 import { BsArrowDown, BsArrowUp } from 'react-icons/bs';
 import { CiCreditCard1 } from "react-icons/ci";
 

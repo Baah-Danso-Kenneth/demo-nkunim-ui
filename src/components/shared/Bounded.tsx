@@ -13,7 +13,6 @@ function Bounded({
     as: Comp = "section",
     className,
     children,
-    ...restProps
 }: BoundedProps) {
   return (
     <Comp

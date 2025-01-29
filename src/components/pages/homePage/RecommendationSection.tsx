@@ -1,6 +1,4 @@
 import { recommend } from '@/app/data'
-import RecommendCard from '@/components/content/RecommendCard'
-import Bounded from '@/components/shared/Bounded'
 import { Heading } from '@/components/shared/Heading'
 import Image from 'next/image'
 import React from 'react'

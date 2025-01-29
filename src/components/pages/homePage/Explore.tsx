@@ -1,5 +1,4 @@
 import React from "react";
-import Bounded from "../../shared/Bounded";
 import { exploreSection } from "@/app/data";
 import Image from "next/image";
 import { Heading } from "../../shared/Heading";

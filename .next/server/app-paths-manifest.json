@@ -1,6 +1,13 @@
 {
-  "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/history/page": "app/history/page.js",
+  "/payment/page": "app/payment/page.js",
+  "/payment/requestTransaction/page": "app/payment/requestTransaction/page.js",
+  "/payment/sendTransaction/page": "app/payment/sendTransaction/page.js",
   "/profile/page": "app/profile/page.js",
-  "/history/page": "app/history/page.js"
+  "/receipt/[id]/page": "app/receipt/[id]/page.js",
+  "/usdConvertor/page": "app/usdConvertor/page.js"
 }

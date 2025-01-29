@@ -1,6 +1,5 @@
 import  { sociaLinks, footerLinks} from '@/app/data';
 import Link from 'next/link';
-import Image from 'next/image';
 import { LuSmile } from "react-icons/lu";
 
 

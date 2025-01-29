@@ -1,6 +1,5 @@
 "use client";
 import { sidearContent } from "@/app/data";
-import { Settings } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation";

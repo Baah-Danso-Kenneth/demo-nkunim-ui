@@ -1,12 +1,9 @@
 "use client"
 import React, { useRef } from 'react'
 
-import Bounded from '@/components/shared/Bounded'
-import { Heading } from '@/components/shared/Heading'
-import { test } from '@/app/data'
 import HistoryDetails from './HistoryDetails'
 import { motion, useScroll } from 'framer-motion'
-import HistoryHeader from './HistoryHeader'
+
 
 
 
