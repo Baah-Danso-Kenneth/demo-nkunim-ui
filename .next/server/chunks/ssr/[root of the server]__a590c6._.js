@@ -46,6 +46,7 @@ __turbopack_esm__({
     "sidearContent": (()=>sidearContent),
     "sociaLinks": (()=>sociaLinks),
     "teamMembers": (()=>teamMembers),
+    "test": (()=>test),
     "transactions": (()=>transactions)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
@@ -105,10 +106,6 @@ const sociaLinks = [
     }
 ];
 const navLinks = [
-    {
-        name: 'convert',
-        href: "/usdConvertor"
-    },
     {
         name: 'dashboard',
         href: "/dashboard"
@@ -210,7 +207,7 @@ const sidearContent = [
         href: "/dashboard",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$hi$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["HiOutlineDesktopComputer"], {}, void 0, false, {
             fileName: "[project]/src/app/data.js",
-            lineNumber: 59,
+            lineNumber: 58,
             columnNumber: 44
         }, this)
     },
@@ -219,7 +216,7 @@ const sidearContent = [
         href: "/payment",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$hi$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["HiOutlineCurrencyDollar"], {}, void 0, false, {
             fileName: "[project]/src/app/data.js",
-            lineNumber: 60,
+            lineNumber: 59,
             columnNumber: 40
         }, this)
     },
@@ -228,7 +225,7 @@ const sidearContent = [
         href: "/history",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$hi$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["HiReceiptRefund"], {}, void 0, false, {
             fileName: "[project]/src/app/data.js",
-            lineNumber: 61,
+            lineNumber: 60,
             columnNumber: 40
         }, this)
     },
@@ -237,7 +234,7 @@ const sidearContent = [
         href: "/profile",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$hi$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["HiUser"], {}, void 0, false, {
             fileName: "[project]/src/app/data.js",
-            lineNumber: 62,
+            lineNumber: 61,
             columnNumber: 40
         }, this)
     },
@@ -246,7 +243,7 @@ const sidearContent = [
         href: "/documents",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$hi$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["HiClipboardList"], {}, void 0, false, {
             fileName: "[project]/src/app/data.js",
-            lineNumber: 63,
+            lineNumber: 62,
             columnNumber: 44
         }, this)
     }
@@ -427,6 +424,56 @@ const recommend = [
         img: '/images/v1.jpg'
     }
 ];
+const test = [
+    {
+        position: 'Softwear engineer',
+        company: 'google',
+        time: '2025-present',
+        address: 'Ohio Oklahoma',
+        work: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quod eos cumque praesentium in veniam corporis esse minima voluptatem quos. ",
+        href: "#"
+    },
+    {
+        position: 'Softwear engineer',
+        company: 'google',
+        time: '2025-present',
+        address: 'Ohio Oklahoma',
+        work: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quod eos cumque praesentium in veniam corporis esse minima voluptatem quos. ",
+        href: "#"
+    },
+    {
+        position: 'Softwear engineer',
+        company: 'google',
+        time: '2025-present',
+        address: 'Ohio Oklahoma',
+        work: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quod eos cumque praesentium in veniam corporis esse minima voluptatem quos. ",
+        href: "#"
+    },
+    {
+        position: 'Softwear engineer',
+        company: 'google',
+        time: '2025-present',
+        address: 'Ohio Oklahoma',
+        work: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quod eos cumque praesentium in veniam corporis esse minima voluptatem quos. ",
+        href: "#"
+    },
+    {
+        position: 'Softwear engineer',
+        company: 'google',
+        time: '2025-present',
+        address: 'Ohio Oklahoma',
+        work: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quod eos cumque praesentium in veniam corporis esse minima voluptatem quos. ",
+        href: "#"
+    },
+    {
+        position: 'Softwear engineer',
+        company: 'google',
+        time: '2025-present',
+        address: 'Ohio Oklahoma',
+        work: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quod eos cumque praesentium in veniam corporis esse minima voluptatem quos. ",
+        href: "#"
+    }
+];
 }}),
 "[project]/src/components/shared/ButtonLink.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
@@ -540,7 +587,7 @@ function Header({ className }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])('header  absolute inset-0 z-50 ~h-32/48 ~px-4/6 ~py-4/6 md:h-20 font-dmMono ~text-lg/xl', className),
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mx-auto max-w-6xl grid w-full grid-cols-[auto,auto] md:grid-cols-[1fr,auto,1fr]",
+            className: "mx-auto max-w-6xl grid w-full grid-cols-[auto,auto] md:grid-cols-[1fr,auto,1fr] items-center",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                     href: "/",

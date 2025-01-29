@@ -1,16 +1,17 @@
 import React, { ReactNode } from 'react'
-import Header from '@/components/layouts/Header'
-import Bounded from '@/components/shared/Bounded'
+import Sidebar from '../../components/layouts/Sidebar'
 
 function layout({children}:{children:ReactNode}) {
   return (
-    <div className='flex-col bg-wineTexture'>
-        <div className='h-[10vh] text-zinc-800'>
-          <Header/>
-        </div>
-        <Bounded className='w-full  bg-softBlend'>
+    <div className='flex bg-wineTexture gap-20'>
+
+          <div className='w-[200px]  h-[100vh] fixed top-0 left-0'>
+             <Sidebar/>
+          </div>
+ 
+        <div className='ml-[200px] p-5 flex-[80%]'>
             {children}
-        </Bounded>
+        </div>
 
     </div>
   )
