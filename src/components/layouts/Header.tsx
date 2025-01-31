@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { usePathname } from 'next/navigation';
 
 import { navLinks } from '@/app/data';
-import { ButtonLink } from '../shared/ButtonLink';
 import { HeaderProps } from '../../../types/base.types';
 
 function Header({
@@ -21,7 +20,7 @@ function Header({
 
       <div className='mx-auto max-w-6xl grid w-full grid-cols-[auto,auto] md:grid-cols-[1fr,auto,1fr] items-center'>
 
-        <Link href="/">
+        <Link href="/homePage">
            <Image src="/images/app-logo.png" alt="app_logo" width={130} height={130}/>
         </Link>
 
@@ -55,7 +54,6 @@ function Header({
           </div>
 
         </div>
-
 
       </div>
 

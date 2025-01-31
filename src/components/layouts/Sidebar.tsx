@@ -12,7 +12,7 @@ function Sidebar() {
   return (
     <div className="bg-wineTexture border border-t-0 border-l-0 border-black h-[100vh] ">
       <div className="flex justify-center text-3xl">
-      <Link href="/">
+      <Link href="/homePage">
            <Image src="/images/app-logo.png" alt="app_logo" width={130} height={130}/>
         </Link>
       </div>
