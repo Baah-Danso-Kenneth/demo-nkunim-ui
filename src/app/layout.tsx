@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from 'next/font/local'
 import "./globals.css";
+import Providers from "@/components/Providers";
 
 const bowlby = localFont({
   src: '../../public/fonts/BowlbyOneSC-Regular.ttf',
@@ -34,7 +35,9 @@ export default function RootLayout({
       className={`${bowlby.variable} ${dmMono.variable} ${playWright.variable} antialiased`}
       >
         <main>
-        {children}
+          <Providers>
+            {children}
+          </Providers>
         </main>
       </body>
     </html>
