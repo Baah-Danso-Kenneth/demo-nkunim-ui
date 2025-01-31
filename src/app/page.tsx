@@ -1,8 +1,8 @@
+import LogIn from '@/components/pages/login/LogIn'
 import React from 'react'
-import HomePage from './../components/pages/homePage'
 
 function page() {
-  return <HomePage/>
+  return <LogIn/>
 }
 
 export default page
