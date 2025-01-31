@@ -29,8 +29,11 @@ async function handler(
   try {
     const claims = await client.verifyAuthToken(authToken);
     return res.status(200).json({ claims });
-  } catch (e: any) {
-    return res.status(401).json({ error: e.message });
+  } catch (e: unknown) {
+      if(e instanceof Error){
+        return res.status(401).json({error:e.message})
+      }
+      return res.status(401).json({error:'An unknown'})
   }
 }
 
