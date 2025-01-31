@@ -1,5 +1,6 @@
-import ConvertorContent from '@/components/pages/usdConvertor/ConvertorContent'
 import React from 'react'
+
+import ConvertorContent from '@/components/pages/usdConvertor/ConvertorContent'
 
 function page() {
   return <ConvertorContent/>

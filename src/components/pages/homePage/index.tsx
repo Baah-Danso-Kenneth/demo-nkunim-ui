@@ -10,7 +10,7 @@ import ThreeSteps from './ThreeSteps'
 import FrequentAskQuestion from './FrequentAskQuestion'
 import MeetTheTeam from './MeetTheTeam'
 import RecommendationSection from './RecommendationSection'
-import { getAccessToken, usePrivy } from '@privy-io/react-auth'
+import { usePrivy } from '@privy-io/react-auth'
 import { useRouter } from 'next/navigation'
 import { ProtectedRoute } from '@/lib/ProtectedRoute'
 
