@@ -15,18 +15,18 @@ import { useRouter } from 'next/navigation'
 import { ProtectedRoute } from '@/lib/ProtectedRoute'
 
 
-async function verifyToken() {
-  const url = "/api/verify";
-  const accessToken = await getAccessToken();
+// async function verifyToken() {
+//   const url = "/api/verify";
+//   const accessToken = await getAccessToken();
 
-  const result = await fetch(url, {
-    headers: {
-      ...(accessToken ? { Authorization: `Bearer ${accessToken}` } : undefined),
-    },
-  });
+//   const result = await fetch(url, {
+//     headers: {
+//       ...(accessToken ? { Authorization: `Bearer ${accessToken}` } : undefined),
+//     },
+//   });
 
-  return await result.json();
-}
+//   return await result.json();
+// }
 
 function HomePage() {
   const router = useRouter();
