@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image'
 import { sidearContent } from "@/app/data";
 import Link from "next/link";
 import React from "react";
@@ -11,8 +12,8 @@ function Sidebar() {
   return (
     <div className="bg-wineTexture border border-t-0 border-l-0 border-black h-[100vh] ">
       <div className="flex justify-center text-3xl">
-        <Link href="/" className="py-5 text-zinc-800">
-          Logo
+      <Link href="/">
+           <Image src="/images/app-logo.png" alt="app_logo" width={130} height={130}/>
         </Link>
       </div>
 
