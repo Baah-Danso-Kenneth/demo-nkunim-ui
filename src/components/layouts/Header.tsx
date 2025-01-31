@@ -1,12 +1,19 @@
 "use client"
 import Link from 'next/link'
 import clsx from 'clsx';
+import Image from 'next/image'
 import { usePathname } from 'next/navigation';
 
 import { navLinks } from '@/app/data';
 import { ButtonLink } from '../shared/ButtonLink';
+import { HeaderProps } from '../../../types/base.types';
 
-function Header({className}:{className?:string}) {
+function Header({
+  className,
+  wallet,
+  logOut,
+}: HeaderProps
+  ) {
   const pathname = usePathname();
 
   return (
@@ -15,7 +22,7 @@ function Header({className}:{className?:string}) {
       <div className='mx-auto max-w-6xl grid w-full grid-cols-[auto,auto] md:grid-cols-[1fr,auto,1fr] items-center'>
 
         <Link href="/">
-          Logo
+           <Image src="/images/app-logo.png" alt="app_logo" width={130} height={130}/>
         </Link>
 
         <nav aria-label='Main'
@@ -37,10 +44,18 @@ function Header({className}:{className?:string}) {
             ))}
           </ul>
         </nav>
+        
+        <div className='justify-self-end'>
+          <div className='flex gap-5 items-center'>
+            <h2>{wallet?.address.slice(0,10)}...</h2>
 
-        <ButtonLink href="#" className='justify-self-end bg-brand-beige'>
-          <button>connect wallet</button>
-        </ButtonLink>
+        <button onClick={logOut}>
+           Logout
+        </button>
+          </div>
+
+        </div>
+
 
       </div>
 
