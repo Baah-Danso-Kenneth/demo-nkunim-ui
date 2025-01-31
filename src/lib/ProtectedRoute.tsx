@@ -13,7 +13,7 @@ export const ProtectedRoute=({children}:{children:ReactNode})=>{
         if(ready && !authenticated){
             router.push('/');
         }
-    },[ready, authenticated])
+    },[ready, authenticated,router])
 
     if(ready && authenticated){
         return<>{children}</>
