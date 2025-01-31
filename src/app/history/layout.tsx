@@ -1,10 +1,11 @@
 import React, { ReactNode } from 'react'
 import Sidebar from '../../components/layouts/Sidebar'
+import { ProtectedRoute } from '@/lib/ProtectedRoute'
 
 function layout({children}:{children:ReactNode}) {
   return (
+    <ProtectedRoute>
     <div className='flex bg-wineTexture gap-20'>
-
           <div className='w-[200px]  h-[100vh] fixed top-0 left-0'>
              <Sidebar/>
           </div>
@@ -14,6 +15,7 @@ function layout({children}:{children:ReactNode}) {
         </div>
 
     </div>
+    </ProtectedRoute>
   )
 }
 
