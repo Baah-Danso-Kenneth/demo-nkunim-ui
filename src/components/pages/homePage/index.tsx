@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useState } from 'react'
+import React, { useEffect} from 'react'
 
 import Header from '../../layouts/Header'
 import Footer from '../../layouts/Footer'
@@ -12,6 +12,7 @@ import MeetTheTeam from './MeetTheTeam'
 import RecommendationSection from './RecommendationSection'
 import { getAccessToken, usePrivy } from '@privy-io/react-auth'
 import { useRouter } from 'next/navigation'
+import { ProtectedRoute } from '@/lib/ProtectedRoute'
 
 
 async function verifyToken() {
@@ -28,10 +29,9 @@ async function verifyToken() {
 }
 
 function HomePage() {
-  const [verifyResult, setVerifyResult] = useState()
   const router = useRouter();
 
-  const {user, ready, authenticated,logout,linkWallet, unlinkWallet} = usePrivy();
+  const {user, ready, authenticated,logout} = usePrivy();
 
   useEffect(()=>{
     if(ready && !authenticated){
@@ -44,7 +44,7 @@ function HomePage() {
   return (
     <div>
       {ready && authenticated ? (
-        <>
+        <ProtectedRoute>
         <Header wallet={wallet} logOut={logout}/>
         <HeroSection/>
         <HugeText/>
@@ -54,7 +54,7 @@ function HomePage() {
         <RecommendationSection/>
         <MeetTheTeam/>
         <Footer/>
-        </>
+        </ProtectedRoute>
       ) : (
         <h1>Loading......</h1>
       )
