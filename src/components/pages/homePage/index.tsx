@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, { useEffect, useState } from 'react'
 
 import Header from '../../layouts/Header'
 import Footer from '../../layouts/Footer'
@@ -9,12 +10,42 @@ import ThreeSteps from './ThreeSteps'
 import FrequentAskQuestion from './FrequentAskQuestion'
 import MeetTheTeam from './MeetTheTeam'
 import RecommendationSection from './RecommendationSection'
+import { getAccessToken, usePrivy } from '@privy-io/react-auth'
+import { useRouter } from 'next/navigation'
 
+
+async function verifyToken() {
+  const url = "/api/verify";
+  const accessToken = await getAccessToken();
+
+  const result = await fetch(url, {
+    headers: {
+      ...(accessToken ? { Authorization: `Bearer ${accessToken}` } : undefined),
+    },
+  });
+
+  return await result.json();
+}
 
 function HomePage() {
+  const [verifyResult, setVerifyResult] = useState()
+  const router = useRouter();
+
+  const {user, ready, authenticated,logout,linkWallet, unlinkWallet} = usePrivy();
+
+  useEffect(()=>{
+    if(ready && !authenticated){
+      router.push("/");
+    }
+  },[ready, authenticated,router]);
+
+  const wallet = user?.wallet;
+
   return (
     <div>
-      <Header/>
+      {ready && authenticated ? (
+        <>
+        <Header wallet={wallet} logOut={logout}/>
         <HeroSection/>
         <HugeText/>
         <Explore/>
@@ -23,7 +54,12 @@ function HomePage() {
         <RecommendationSection/>
         <MeetTheTeam/>
         <Footer/>
-    {/* <DefaultLoader/> */}
+        </>
+      ) : (
+        <h1>Loading......</h1>
+      )
+      }
+
     </div>
   )
 }
